@@ -25,14 +25,13 @@ console.log(Text + counter);
 // init -------- function
 
 function init() {
-  // remove text from div
-
   // reset counter
 
   counter = 0;
 
   // start loop
 
+  // remove text from div
   document.querySelector("#typewriter").textContent = "";
 
   console.log(Text);
